@@ -264,7 +264,6 @@ const images = new Images();
 // Filetypes accepted by the file picker
 // const fileTypes = ['jpg', 'jpeg', 'png', 'bmp', 'gif', 'svg'];
 // Variable name, when "arduino code" is required
-const identifier = 'myBitmap';
 
 // Invert the colors of the canvas
 function invert(canvas, ctx) {
