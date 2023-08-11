@@ -3,8 +3,8 @@
 /* eslint-disable no-plusplus */
 // A bunch of settings used when converting
 const settings = {
-  screenWidth: 128,
-  screenHeight: 64,
+  screenWidth: 250,
+  screenHeight: 122,
   scaleToFit: true,
   preserveRatio: true,
   centerHorizontally: false,
@@ -17,9 +17,9 @@ const settings = {
   removeZeroesCommas: false,
   ditheringThreshold: 128,
   ditheringMode: 0,
-  outputFormat: 'plain',
-  invertColors: false,
-  rotation: 0,
+  outputFormat: 'arduino',
+  invertColors: true,
+  rotation: 90,
 };
 
 function bitswap(b) {
